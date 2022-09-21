@@ -9,13 +9,15 @@ class P9plus_SwitchCase
 			Console.WriteLine("Projeto 9 plus - Switch case test\n");
 			
 			Console.WriteLine("Digite o mes do ano desejado,"
-								+" (exemplo: 1).\n");
+								+" (disponiveis: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12).\n");
 	
 			// declarando variavel a ser testada e 
 			// na sequencia o uso logico da funcao Switch
 			int mes = 1;
 			mes = Convert.ToInt32(Console.ReadLine());
+			//capturando input
 			
+			Console.Write("\nMês selecionado: ");
 			switch (mes)
 				{
 					// tentei utilizar valicao de
