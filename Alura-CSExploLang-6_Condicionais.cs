@@ -1,9 +1,10 @@
 using System;
 
-class 6Condiconais
+class N6Condiconais
 {
-	int void Main(string[] args)
+	static void Main(string[] args)
 		{
-		
+		Console.WriteLine("Ola, teste!");
+		Console.ReadLine();
 		}
 }
