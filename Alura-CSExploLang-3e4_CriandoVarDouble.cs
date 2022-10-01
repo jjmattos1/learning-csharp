@@ -36,8 +36,13 @@ class Projetos3e4
     int idade = 27;
     Console.WriteLine(idade);
     
+    double valor1 = 0.1;
+    double valor2 = 0.2;
+    double total = valor1+valor2;
+    Console.WriteLine(total);
     
-    //Console.Writeline("Salário formato long:");
+    int idade = 3 * 10
+	Console.WriteLine("A idade de Marcos é " + idade + "!");
     //Console.Writeline();
   }
 }
