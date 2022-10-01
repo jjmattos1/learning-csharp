@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-AluraCSExploLang22",
+      "appliesTo": "AluraCSExploLang22.csproj",
+      "type": "msbuild"
+    }
+  ]
+}

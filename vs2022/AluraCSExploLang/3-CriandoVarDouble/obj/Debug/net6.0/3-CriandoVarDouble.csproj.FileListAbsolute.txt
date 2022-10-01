@@ -1,0 +1,15 @@
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\bin\Debug\net6.0\3-CriandoVarDouble.exe
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\bin\Debug\net6.0\3-CriandoVarDouble.deps.json
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\bin\Debug\net6.0\3-CriandoVarDouble.runtimeconfig.json
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\bin\Debug\net6.0\3-CriandoVarDouble.dll
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\bin\Debug\net6.0\3-CriandoVarDouble.pdb
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\3-CriandoVarDouble.csproj.AssemblyReference.cache
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\3-CriandoVarDouble.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\3-CriandoVarDouble.AssemblyInfoInputs.cache
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\3-CriandoVarDouble.AssemblyInfo.cs
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\3-CriandoVarDouble.csproj.CoreCompileInputs.cache
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\3-CriandoVarDouble.dll
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\refint\3-CriandoVarDouble.dll
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\3-CriandoVarDouble.pdb
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\3-CriandoVarDouble.genruntimeconfig.cache
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\3-CriandoVarDouble\obj\Debug\net6.0\ref\3-CriandoVarDouble.dll

@@ -7,7 +7,7 @@ class P6Condiconais
 {
 	static void Main(string[] args)
 		{
-		Console.WriteLine("Projeto 6 - Condicionais\n");
+		Console.WriteLine("Projeto 6 - Condic ionais\n");
 		
 		int idade = 17;
 		int quantidadePessoas = 3;
@@ -25,6 +25,4 @@ class P6Condiconais
 				{
 				Console.WriteLine("Infelizmente voce nao pode entrar!");	
 				}
-		
-		}
 }
