@@ -1,0 +1,15 @@
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\bin\Debug\net6.0\P12_LacoRepForEncadeado.deps.json
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\bin\Debug\net6.0\P12_LacoRepForEncadeado.dll
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\bin\Debug\net6.0\P12_LacoRepForEncadeado.pdb
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\P12_LacoRepForEncadeado.csproj.AssemblyReference.cache
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\P12_LacoRepForEncadeado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\P12_LacoRepForEncadeado.AssemblyInfoInputs.cache
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\P12_LacoRepForEncadeado.AssemblyInfo.cs
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\P12_LacoRepForEncadeado.csproj.CoreCompileInputs.cache
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\P12_LacoRepForEncadeado.dll
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\refint\P12_LacoRepForEncadeado.dll
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\P12_LacoRepForEncadeado.pdb
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\ref\P12_LacoRepForEncadeado.dll
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\bin\Debug\net6.0\P12_LacoRepForEncadeado.exe
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\bin\Debug\net6.0\P12_LacoRepForEncadeado.runtimeconfig.json
+C:\Users\jonas.mattos\source\repos\learning_csharp\P12_LacoRepForEncadeado\obj\Debug\net6.0\P12_LacoRepForEncadeado.genruntimeconfig.cache
