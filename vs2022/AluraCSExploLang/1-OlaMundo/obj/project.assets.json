@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Brolezzi Mattos\\.nuget\\packages\\": {}
+    "C:\\Users\\jonas.mattos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brolezzi Mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\1-OlaMundo\\1-OlaMundo.csproj",
+      "projectUniqueName": "C:\\Users\\jonas.mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\1-OlaMundo\\1-OlaMundo.csproj",
       "projectName": "1-OlaMundo",
-      "projectPath": "C:\\Users\\Brolezzi Mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\1-OlaMundo\\1-OlaMundo.csproj",
-      "packagesPath": "C:\\Users\\Brolezzi Mattos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brolezzi Mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\1-OlaMundo\\obj\\",
+      "projectPath": "C:\\Users\\jonas.mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\1-OlaMundo\\1-OlaMundo.csproj",
+      "packagesPath": "C:\\Users\\jonas.mattos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jonas.mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\1-OlaMundo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Brolezzi Mattos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jonas.mattos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

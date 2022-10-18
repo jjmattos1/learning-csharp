@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P12_LacoRepForEncadeado", "P12_LacoRepForEncadeado.csproj", "{452BAD6E-B998-4155-822B-B2077357F9BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{452BAD6E-B998-4155-822B-B2077357F9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452BAD6E-B998-4155-822B-B2077357F9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452BAD6E-B998-4155-822B-B2077357F9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452BAD6E-B998-4155-822B-B2077357F9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C43E2E17-5F70-485A-87A5-5956CCF3A8B6}
+	EndGlobalSection
+EndGlobal
