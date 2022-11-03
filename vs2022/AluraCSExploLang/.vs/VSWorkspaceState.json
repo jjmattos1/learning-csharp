@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\P12_LacoRepForEncadeado",
+    "\\P13-EncadeandoFor",
+    "\\P3e4-CriandoVarDouble"
   ],
-  "SelectedNode": "\\AluraCSExploLang.sln",
+  "SelectedNode": "\\P13-EncadeandoFor\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
