@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "P14_15-LacoRepWhile_For/1.0.0": {
+        "runtime": {
+          "P14_15-LacoRepWhile_For.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P14_15-LacoRepWhile_For/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

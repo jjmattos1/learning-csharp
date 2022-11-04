@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DES-Fatorial",
+    "\\DES_Multiplos3",
     "\\P12_LacoRepForEncadeado",
     "\\P13-EncadeandoFor",
-    "\\P3e4-CriandoVarDouble"
+    "\\P14_15-LacoRepWhile_For"
   ],
-  "SelectedNode": "\\P13-EncadeandoFor\\Program.cs",
+  "SelectedNode": "\\DES-Fatorial\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
