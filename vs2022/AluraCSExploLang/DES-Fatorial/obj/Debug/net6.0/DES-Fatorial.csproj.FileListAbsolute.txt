@@ -1,0 +1,15 @@
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\bin\Debug\net6.0\DES-Fatorial.exe
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\bin\Debug\net6.0\DES-Fatorial.deps.json
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\bin\Debug\net6.0\DES-Fatorial.runtimeconfig.json
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\bin\Debug\net6.0\DES-Fatorial.dll
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\bin\Debug\net6.0\DES-Fatorial.pdb
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\DES-Fatorial.csproj.AssemblyReference.cache
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\DES-Fatorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\DES-Fatorial.AssemblyInfoInputs.cache
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\DES-Fatorial.AssemblyInfo.cs
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\DES-Fatorial.csproj.CoreCompileInputs.cache
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\DES-Fatorial.dll
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\refint\DES-Fatorial.dll
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\DES-Fatorial.pdb
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\DES-Fatorial.genruntimeconfig.cache
+C:\Users\jonas.mattos\source\repos\learning_csharp\vs2022\AluraCSExploLang\DES-Fatorial\obj\Debug\net6.0\ref\DES-Fatorial.dll
