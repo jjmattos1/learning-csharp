@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jonas.mattos\\.nuget\\packages\\": {}
+    "C:\\Users\\Brolezzi Mattos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonas.mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\P13-EncadeandoFor\\P13-EncadeandoFor.csproj",
+      "projectUniqueName": "C:\\Users\\Brolezzi Mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\P13-EncadeandoFor\\P13-EncadeandoFor.csproj",
       "projectName": "P13-EncadeandoFor",
-      "projectPath": "C:\\Users\\jonas.mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\P13-EncadeandoFor\\P13-EncadeandoFor.csproj",
-      "packagesPath": "C:\\Users\\jonas.mattos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonas.mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\P13-EncadeandoFor\\obj\\",
+      "projectPath": "C:\\Users\\Brolezzi Mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\P13-EncadeandoFor\\P13-EncadeandoFor.csproj",
+      "packagesPath": "C:\\Users\\Brolezzi Mattos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Brolezzi Mattos\\source\\repos\\learning_csharp\\vs2022\\AluraCSExploLang\\P13-EncadeandoFor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jonas.mattos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Brolezzi Mattos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
