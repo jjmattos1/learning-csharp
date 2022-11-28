@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bytebank", "Bytebank\Bytebank.csproj", "{D8B88F9A-84A4-4844-AE8E-D079A032FE6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DESMenorPreco", "DESMenorPreco\DESMenorPreco.csproj", "{CC604145-7B42-4660-8671-BF055BF54DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B88F9A-84A4-4844-AE8E-D079A032FE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B88F9A-84A4-4844-AE8E-D079A032FE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B88F9A-84A4-4844-AE8E-D079A032FE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B88F9A-84A4-4844-AE8E-D079A032FE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC604145-7B42-4660-8671-BF055BF54DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC604145-7B42-4660-8671-BF055BF54DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC604145-7B42-4660-8671-BF055BF54DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC604145-7B42-4660-8671-BF055BF54DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBB5B775-CAA1-4ED7-AA70-EEACC3956AF7}
+	EndGlobalSection
+EndGlobal

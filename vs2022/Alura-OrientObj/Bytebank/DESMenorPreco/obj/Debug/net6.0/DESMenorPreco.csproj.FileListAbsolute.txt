@@ -1,0 +1,15 @@
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\DESMenorPreco.csproj.AssemblyReference.cache
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\DESMenorPreco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\DESMenorPreco.AssemblyInfoInputs.cache
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\DESMenorPreco.AssemblyInfo.cs
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\DESMenorPreco.csproj.CoreCompileInputs.cache
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\bin\Debug\net6.0\DESMenorPreco.exe
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\bin\Debug\net6.0\DESMenorPreco.deps.json
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\bin\Debug\net6.0\DESMenorPreco.runtimeconfig.json
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\bin\Debug\net6.0\DESMenorPreco.dll
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\bin\Debug\net6.0\DESMenorPreco.pdb
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\DESMenorPreco.dll
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\refint\DESMenorPreco.dll
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\DESMenorPreco.pdb
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\DESMenorPreco.genruntimeconfig.cache
+C:\Users\Brolezzi Mattos\source\repos\learning_csharp\VS2022\Alura-OrientObj\Bytebank\DESMenorPreco\obj\Debug\net6.0\ref\DESMenorPreco.dll
