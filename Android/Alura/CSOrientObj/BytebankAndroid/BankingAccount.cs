@@ -25,13 +25,15 @@ namespace Bytebank
         {
         	//double value;
         	//string accNum;
-        	if (this.balance) < value
+        	if (this.balance < value)
         	{
         		return false;
         	}
         	else 
         	{
         		this.balance -= value;
+                destiny.balance += value;
+                return true;
         		
         	}
         	
