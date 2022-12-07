@@ -12,6 +12,7 @@ public class Program
 // o copilador nao copila.
 		static void Main(string[] args)
 		{
+			
 			BankingAccount AndreAccount = new BankingAccount();
 			
 			//conta default
@@ -36,7 +37,6 @@ public class Program
 			MariaAccount.accNum = "1011-X";
 			MariaAccount.balance = 300;
 			
-			
 			Console.WriteLine($"\nSaldo da conta do André: R$ {String.Format("{0:0.00}", AndreAccount.balance)}");
 			
 			AndreAccount.Deposit(100);
@@ -48,6 +48,15 @@ public class Program
 			Console.WriteLine("\nSaldo da conta do André pós saque: R$ "+AndreAccount.balance);
 			
 			Console.WriteLine($"\nSaldo da conta da Maria é: R$ {String.Format("{0:0.00}", MariaAccount.balance)}");
+			
+			// codigo acima era de quando se acessava diretamente
+			// os campos.
+			
+			
+			//Cliente accNum1 = new Cliente();
+			// ctrl+k+c no vs22 e a hotkey para comentar
+			// varias linhas de codigo simultaneamente 
+			
 			
 			// closing...
 			Console.WriteLine("\n\nPress any key to continue...");

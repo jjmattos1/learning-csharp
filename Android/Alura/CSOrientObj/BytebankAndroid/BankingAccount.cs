@@ -9,6 +9,7 @@ namespace Bytebank
         public int agNum = 0;
         public string accNum = "";
         public string owner= "";
+        //public Client owner;
         public double balance = 0.00;
         
         public void Deposit(double value)
