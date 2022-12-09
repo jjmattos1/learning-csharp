@@ -12,7 +12,7 @@ public class Program
 // o copilador nao copila.
 		static void Main(string[] args)
 		{
-			
+			/*
 			BankingAccount AndreAccount = new BankingAccount();
 			
 			//conta default
@@ -48,18 +48,38 @@ public class Program
 			Console.WriteLine("\nSaldo da conta do André pós saque: R$ "+AndreAccount.balance);
 			
 			Console.WriteLine($"\nSaldo da conta da Maria é: R$ {String.Format("{0:0.00}", MariaAccount.balance)}");
-			
+			*/
 			// codigo acima era de quando se acessava diretamente
 			// os campos.
 			
 			
-			//Cliente accNum1 = new Cliente();
+			Client client0 = new Client();
+			
+			client0.name = "André Silva";
+			client0.cpf = "123456789";
+			client0.profession = "Analista";
+			
+			BankingAccount acct0 = new BankingAccount();
+			
+			acct0.owner = client0;
+			acct0.agNum = 15;
+			acct0.accNum = "1010-X";
+			acct0.balance = 100;
+			
 			// ctrl+k+c no vs22 e a hotkey para comentar
 			// varias linhas de codigo simultaneamente 
 			
+			Console.WriteLine("\n- Dados da conta e do titular "+acct0.owner.name+":");
+			Console.WriteLine("\nAgência: "+acct0.agNum);
+			Console.WriteLine("Conta: "+acct0.accNum);
+			Console.WriteLine($"Saldo: {String.Format("{0:0.00}", acct0.balance)}");
+			Console.WriteLine("CPF: "+acct0.owner.cpf);
+			Console.WriteLine("Profissão: "+acct0.owner.profession);
 			
+			
+			Console.WriteLine("\n\n\nHello!");
 			// closing...
-			Console.WriteLine("\n\nPress any key to continue...");
+			Console.WriteLine("\nPress any key to continue...");
 			Console.ReadLine();
     	}
 	}
