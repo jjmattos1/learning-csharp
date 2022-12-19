@@ -62,24 +62,41 @@ public class Program
 			BankingAccount acct0 = new BankingAccount();
 			
 			acct0.owner = client0;
-			acct0.agNum = 15;
+			acct0.AgNum = 15;
 			acct0.accNum = "1010-X";
 			acct0.balance = 100;
+			
+			Client client01 = new Client();
+			client01.name = "Texano";
+			acct0.tit0 = client01;
 			
 			// ctrl+k+c no vs22 e a hotkey para comentar
 			// varias linhas de codigo simultaneamente 
 			
 			Console.WriteLine("\n- Dados da conta e do titular "+acct0.owner.name+":");
-			Console.WriteLine("\nAgência: "+acct0.agNum);
+			Console.WriteLine("\nAgência: "+acct0.AgNum);
 			Console.WriteLine("Conta: "+acct0.accNum);
 			Console.WriteLine($"Saldo: {String.Format("{0:0.00}", acct0.balance)}");
 			Console.WriteLine("CPF: "+acct0.owner.cpf);
 			Console.WriteLine("Profissão: "+acct0.owner.profession);
 			
+			Console.WriteLine("\ntit0: "+acct0.tit0.name);
+			
+			Console.WriteLine("\n8) Exibir informações de um objeto por um método criado na classe:");
+			Console.Write("\nDados da conta do Andre:");
+			acct0.ShowAcc(acct0);
+
 			
 			Console.WriteLine("\n\n\nHello!");
 			// closing...
 			Console.WriteLine("\nPress any key to continue...");
 			Console.ReadLine();
+			
+			/*
+			Pelo princípio da responsabilidade, uma classe deve tratar especificamente
+			de um tema somente, ter uma responsabilidade única.
+			*/
+			
+			
     	}
 	}
