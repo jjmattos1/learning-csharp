@@ -9,7 +9,7 @@ namespace Bytebank
         private int agNum = 0;
         public int AgNum
         {
-        	get { return.this agNum; }
+        	get { return this.agNum; }
         	set
         	{
         		if ( value > 0 )
@@ -20,7 +20,19 @@ namespace Bytebank
         public string accNum = "";
         //public string owner= "";
         public Client owner;
-        public double balance = 0.00;
+        
+        private double balance = 0.00;
+        
+        public void SetBalance(double newBalance)
+        {
+        	this.balance = newBalance;
+        }
+        
+        public double GetBalance()
+        {
+        	return this.balance;
+        }
+        
         public Client tit0;
         
         public void Deposit(double value)
@@ -66,7 +78,7 @@ namespace Bytebank
             Console.WriteLine("\nAgência: "+selAcc.agNum);
             Console.WriteLine("Num. conta: "+selAcc.accNum);
             Console.WriteLine("Titular: "+selAcc.owner.name);
-            Console.WriteLine("Saldo: "+selAcc.balance);
+            Console.WriteLine("Saldo: "+selAcc.GetBalance());
         }
     }
 }

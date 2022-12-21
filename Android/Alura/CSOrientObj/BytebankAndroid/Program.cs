@@ -64,7 +64,7 @@ public class Program
 			acct0.owner = client0;
 			acct0.AgNum = 15;
 			acct0.accNum = "1010-X";
-			acct0.balance = 100;
+			acct0.SetBalance(100);
 			
 			Client client01 = new Client();
 			client01.name = "Texano";
@@ -76,7 +76,9 @@ public class Program
 			Console.WriteLine("\n- Dados da conta e do titular "+acct0.owner.name+":");
 			Console.WriteLine("\nAgência: "+acct0.AgNum);
 			Console.WriteLine("Conta: "+acct0.accNum);
-			Console.WriteLine($"Saldo: {String.Format("{0:0.00}", acct0.balance)}");
+			Console.WriteLine($"Saldo: {String.Format("{0:0.00}", acct0.GetBalance())}");
+			//double showBalance = acct0.GetBalance();
+			//Console.WriteLine("Saldo: "+showBalance);
 			Console.WriteLine("CPF: "+acct0.owner.cpf);
 			Console.WriteLine("Profissão: "+acct0.owner.profession);
 			
@@ -85,6 +87,8 @@ public class Program
 			Console.WriteLine("\n8) Exibir informações de um objeto por um método criado na classe:");
 			Console.Write("\nDados da conta do Andre:");
 			acct0.ShowAcc(acct0);
+			
+			
 
 			
 			Console.WriteLine("\n\n\nHello!");
