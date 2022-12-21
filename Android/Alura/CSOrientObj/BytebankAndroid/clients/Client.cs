@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace Bytebank
+namespace BytebankAndroid
 {
     public class Client
     {         

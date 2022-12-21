@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace Bytebank
+namespace BytebankAndroid
 {
     public class BankingAccount 
     {         
@@ -19,7 +19,7 @@ namespace Bytebank
         
         public string accNum = "";
         //public string owner= "";
-        public Client owner;
+        public Client owner { get; set; }
         
         private double balance = 0.00;
         
@@ -33,7 +33,7 @@ namespace Bytebank
         	return this.balance;
         }
         
-        public Client tit0;
+        //public Client tit0;
         
         public void Deposit(double value)
         {

@@ -7,7 +7,8 @@
     <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
   </PropertyGroup>
   <PropertyGroup>
-    <LangVersion>latestMajor</LangVersion>
+    <LangVersion>
+    </LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>

@@ -1,4 +1,4 @@
-﻿using Bytebank;
+﻿using BytebankAndroid;
 using System;
 using System.Linq;
 using System.Collections.Generic;
@@ -66,9 +66,11 @@ public class Program
 			acct0.accNum = "1010-X";
 			acct0.SetBalance(100);
 			
+			/*
 			Client client01 = new Client();
 			client01.name = "Texano";
 			acct0.tit0 = client01;
+			*/
 			
 			// ctrl+k+c no vs22 e a hotkey para comentar
 			// varias linhas de codigo simultaneamente 
@@ -82,7 +84,7 @@ public class Program
 			Console.WriteLine("CPF: "+acct0.owner.cpf);
 			Console.WriteLine("Profissão: "+acct0.owner.profession);
 			
-			Console.WriteLine("\ntit0: "+acct0.tit0.name);
+			//Console.WriteLine("\ntit0: "+acct0.tit0.name);
 			
 			Console.WriteLine("\n8) Exibir informações de um objeto por um método criado na classe:");
 			Console.Write("\nDados da conta do Andre:");
