@@ -59,12 +59,16 @@ public class Program
 			client0.cpf = "123456789";
 			client0.profession = "Analista";
 			
-			BankingAccount acct0 = new BankingAccount();
+			BankingAccount acct0 = new BankingAccount(client0, 20,"1010-Z", 100);
 			
-			acct0.owner = client0;
-			acct0.AgNum = 15;
-			acct0.accNum = "1010-X";
-			acct0.SetBalance(100);
+			//acct0.owner = client0;
+			//acct0.AgNum = 15;
+			//acct0.accNum = "1010-X";
+			//acct0.SetBalance(100);
+			
+			BankingAccount acct1 = new BankingAccount(client0, 20,"1011-Z", 300);
+			//acct1.owner = client0;
+			//acct1.SetBalance(300);
 			
 			/*
 			Client client01 = new Client();
@@ -75,6 +79,9 @@ public class Program
 			// ctrl+k+c no vs22 e a hotkey para comentar
 			// varias linhas de codigo simultaneamente 
 			
+			/*
+			// maneira anterior, quando as variaveis eram publicas,
+			// de se exibir o conteudo delas
 			Console.WriteLine("\n- Dados da conta e do titular "+acct0.owner.name+":");
 			Console.WriteLine("\nAgência: "+acct0.AgNum);
 			Console.WriteLine("Conta: "+acct0.accNum);
@@ -83,19 +90,19 @@ public class Program
 			//Console.WriteLine("Saldo: "+showBalance);
 			Console.WriteLine("CPF: "+acct0.owner.cpf);
 			Console.WriteLine("Profissão: "+acct0.owner.profession);
+			*/
 			
 			//Console.WriteLine("\ntit0: "+acct0.tit0.name);
 			
 			Console.WriteLine("\n8) Exibir informações de um objeto por um método criado na classe:");
-			Console.Write("\nDados da conta do Andre:");
+			Console.Write("\nDados das contas do Andre:\n");
 			acct0.ShowAcc(acct0);
+			acct1.ShowAcc(acct1);
+			Console.WriteLine("\nTotal de contas criadas: "+BankingAccount.TotalCreatedAccs);
 			
-			
-
-			
-			Console.WriteLine("\n\n\nHello!");
+			Console.WriteLine("\n\n\nEOF!");
 			// closing...
-			Console.WriteLine("\nPress any key to continue...");
+			Console.WriteLine("Press any key to continue...");
 			Console.ReadLine();
 			
 			/*

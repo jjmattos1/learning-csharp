@@ -6,20 +6,46 @@ namespace BytebankAndroid
 {
     public class BankingAccount 
     {         
+        private static int totalCreatedAccs;
+        public static int TotalCreatedAccs
+        {
+        	get { return totalCreatedAccs; }
+        	private set { totalCreatedAccs = value; }
+        }
+        
+        
+        
+        //public Client
+        public Client owner { get; set; }
+        
         private int agNum = 0;
         public int AgNum
         {
         	get { return this.agNum; }
-        	set
+        	private set
         	{
         		if ( value > 0 )
         		this.agNum = value;
         	}
         }
         
-        public string accNum = "";
+        private string accNum = "";
+        public string AccNum
+        {
+        	get { return this.accNum; }
+        	set { this.accNum = value ; }
+        }
+        
+        public BankingAccount (Client newOwner, int newAgNum, string newAccNum, double initBalance)
+        {
+        	this.owner = newOwner;
+        	this.AgNum = newAgNum;
+        	this.AccNum = newAccNum;
+        	SetBalance(initBalance);
+        	TotalCreatedAccs++;
+        }
+        
         //public string owner= "";
-        public Client owner { get; set; }
         
         private double balance = 0.00;
         
