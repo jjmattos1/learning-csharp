@@ -30,6 +30,9 @@ namespace DES_OpersClasss
 				
 				if ( op == 1)
 				{
+					
+					// ToDo: 1) Show results directly from the specific class method, instead of the actual way of displaying it.
+
 					//
 					//double a,b;
 					//a = b = 0;
@@ -77,7 +80,7 @@ namespace DES_OpersClasss
 
 					Console.WriteLine("\nDigite o 1o num pressione enter, depois o 2o e aperte enter novamente: \n");
 					
-					Console.Write("\n"+ (num1 = Convert.ToDouble(Console.ReadLine())) + " * " + (num2 = Convert.ToDouble(Console.ReadLine())) + " = " + (Multiplication.Do(num1,num2)));
+					Console.Write("\n"+ (num1 = Convert.ToDouble(Console.ReadLine())) + " x " + (num2 = Convert.ToDouble(Console.ReadLine())) + " = " + (Multiplication.Do(num1,num2)));
 					
 					Console.WriteLine("\n\nVoltaremos ao menu principal em 5 segundos...");
 					System.Threading.Thread.Sleep(TimeSpan.FromSeconds(5));
@@ -90,10 +93,11 @@ namespace DES_OpersClasss
 
 					Console.WriteLine("\nDigite o 1o num pressione enter, depois o 2o e aperte enter novamente: \n");
 					
-					Console.Write("\n"+ (num1 = Convert.ToDouble(Console.ReadLine())) + " / " + (num2 = Convert.ToDouble(Console.ReadLine())) + " = " + (Division.Do(num1,num2)));
+					Console.Write("\n"+ (num1 = Convert.ToDouble(Console.ReadLine())) + " ÷ " + (num2 = Convert.ToDouble(Console.ReadLine())) + " = " + (Division.Do(num1,num2)));
 					
 					Console.WriteLine("\n\nVoltaremos ao menu principal em 5 segundos...");
 					System.Threading.Thread.Sleep(TimeSpan.FromSeconds(5));
+					// ToDo: 2) format the Division result with a max of 2 decimals.
 					// op 4 end
 				}
 			// while menu end	
