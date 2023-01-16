@@ -2,6 +2,8 @@
 using System.Linq;
 //using Bytebank_ADM.Employee;
 
+//https://github.com/alura-cursos/curso_OrientacaoObjetosC02R
+
 namespace Bytebank_ADM
 {
 	public class Program
@@ -87,14 +89,17 @@ namespace Bytebank_ADM
 				Designer emp0 = new Designer("123456");
 				emp0.Name = "Ulisses Souza";
 				
-				Directors emp1 = new Directors("123457");
-				emp1.Name = "Paula Souza";
-				
 				Auxiliary emp2 = new Auxiliary("123458");
 				emp2.Name = "Igor Dias";
 				
+				Directors emp1 = new Directors("123457");
+				emp1.Name = "Paula Souza";
+				emp1.Password = "123";
+				
 				AccountManager emp3 = new AccountManager("123459");
 				emp3.Name = "Camila Oliveira";
+				emp3.Password = "321";
+				
 				
 				bonusManager.Register(emp0);
 				bonusManager.Register(emp1);
@@ -102,11 +107,34 @@ namespace Bytebank_ADM
 				bonusManager.Register(emp3);
 				
 				Console.WriteLine("\nO total de bonus pago é de R$ "+bonusManager.BonusTotal);
+				Console.WriteLine("\n");
+				
 				
 				//
 			}
 			
+			void UseSystem()
+			{
+				Directors emp1 = new Directors("123457");
+				emp1.Name = "Paula Souza";
+				emp1.Password = "123";
+				
+				AccountManager emp3 = new AccountManager("123459");
+				emp3.Name = "Camila Oliveira";
+				emp3.Password = "321";
+				
+				
+				InternalSystem internalSystem = new InternalSystem();
+				
+				internalSystem.LogIn(emp1, "123");
+				internalSystem.LogIn(emp1, "321");
+				
+				internalSystem.LogIn(emp3, "123");
+				internalSystem.LogIn(emp3, "321");
+			}
+			
 			BonusCalc();
+			UseSystem();
 			
 			//
 		}

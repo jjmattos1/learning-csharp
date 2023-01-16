@@ -7,7 +7,15 @@ namespace Bytebank_ADM
 // C# Shell Copiler, it breaks the link between the classes!
 {
     public class AccountManager : Employees
-    {         
+    {
+    	public string Password { get; set; }
+        
+        public bool Auth (string password)
+        {
+        	return Password == password;
+        }
+        
+        
         public AccountManager(string cpf) : base(cpf, 4000)
         {
         	

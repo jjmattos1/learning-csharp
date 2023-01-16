@@ -9,6 +9,13 @@ namespace Bytebank_ADM
 {
     public class Directors : Employees
     {         
+        public string Password { get; set; }
+        
+        public bool Auth (string password)
+        {
+        	return Password == password;
+        }
+        
         /*
         // fields inherited from Employee superclass.
         public string DirName { get; set; }

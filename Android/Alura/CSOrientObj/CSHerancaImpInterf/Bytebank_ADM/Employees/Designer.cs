@@ -8,6 +8,15 @@ namespace Bytebank_ADM
 {
     public class Designer : Employees
     {         
+        
+        /*
+        public string Password { get; set; }
+        
+        public bool Auth (string password)
+        {
+        	return Password == password;
+        }*/
+        
         public Designer (string cpf) : base (cpf, 3000)
         {
         	
