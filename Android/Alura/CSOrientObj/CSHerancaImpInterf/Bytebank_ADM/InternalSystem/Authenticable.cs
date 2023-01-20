@@ -3,40 +3,40 @@ using System.Linq;
 using System.Collections.Generic;
 
 namespace Bytebank_ADM
-// if i specify the namespace as Bytebank_ADM.Directors here in Android
-// C# Shell Copiler, it breaks the link between the classes!
 {
-    public class Designer : Employees
+    public interface Authenticable
     {         
+        //
         
-        /*
         public string Password { get; set; }
-        
+
         public bool Auth (string password)
         {
         	return Password == password;
-        }*/
+        }
         
-        public Designer (string cpf) : base (cpf, 3000)
+        /* removing constructor because its not a heir from Employees
+        public Authenticable (string cpf, double wage) : base(cpf, wage)
+
         {
         	
         }
         
-        public override double get1HBonus()
+        public override void raiseWage()
         {
-        	return this.Wage;
+        	throw new NotImplementedException();
         }
         
         public override double getBonus()
         {
-        	return this.Wage * 0.17;
+        	throw new NotImplementedException();
         }
         
-        public override void raiseWage()
+        public override double get1HBonus()
         {
-        	this.Wage *= 1.11;
+        	throw new NotImplementedException();
         }
+        */
         
-        //
     }
 }

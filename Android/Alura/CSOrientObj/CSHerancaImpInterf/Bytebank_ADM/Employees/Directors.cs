@@ -7,14 +7,18 @@ namespace Bytebank_ADM
 // C# Shell Copiler, it breaks the link between the classes!
 
 {
-    public class Directors : Employees
-    {         
-        public string Password { get; set; }
+    public class Directors : AuthenticableEmployee
+    {
+        /* the propertie and Auth method are already implemented in AuthenticableEmployee superclass
+        public string Password { get => throw new NotImplementedException(); set => throw new NotImplementedException();}
         
         public bool Auth (string password)
+
         {
+
         	return Password == password;
         }
+        */
         
         /*
         // fields inherited from Employee superclass.
@@ -44,7 +48,7 @@ namespace Bytebank_ADM
         	
         }
         
-        public void raiseWage()
+        public override void raiseWage()
         {
 
         	this.Wage *= 1.15;

@@ -23,7 +23,7 @@ namespace Bytebank_ADM
         	return this.Wage * 0.2;
         }
 
-        public void raiseWage()
+        public override void raiseWage()
         {
         	this.Wage *= 1.10;
         }

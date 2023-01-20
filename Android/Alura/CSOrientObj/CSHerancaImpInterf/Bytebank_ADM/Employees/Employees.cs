@@ -37,9 +37,9 @@ namespace Bytebank_ADM
         	this.Wage = wage;
         	EmployeesTotal++;
         }
-        /*
-        public virtual void raiseWage()
-        {
+        
+        public abstract void raiseWage();
+        /*{
         	this.Wage *= 1.10;
         }*/
         

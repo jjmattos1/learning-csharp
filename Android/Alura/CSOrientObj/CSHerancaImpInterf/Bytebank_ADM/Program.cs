@@ -131,6 +131,14 @@ namespace Bytebank_ADM
 				
 				internalSystem.LogIn(emp3, "123");
 				internalSystem.LogIn(emp3, "321");
+				Console.WriteLine("\n");
+				internalSystem.LogIn("admin","masterkey");
+				Console.WriteLine("");
+				internalSystem.LogIn("admin","password");
+				
+				CommercialPartner caio = new CommercialPartner();
+				caio.Password = "999";
+				internalSystem.LogIn(caio,"999");
 			}
 			
 			BonusCalc();

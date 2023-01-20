@@ -6,15 +6,17 @@ namespace Bytebank_ADM
 // if i specify the namespace as Bytebank_ADM.Directors here in Android
 // C# Shell Copiler, it breaks the link between the classes!
 {
-    public class AccountManager : Employees
+    public class AccountManager : AuthenticableEmployee
     {
-    	public string Password { get; set; }
+        
+         /* the propertie and Auth method are already implemented in AuthenticableEmployee superclass
+        public string Password { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         
         public bool Auth (string password)
         {
         	return Password == password;
         }
-        
+        */
         
         public AccountManager(string cpf) : base(cpf, 4000)
         {
@@ -31,7 +33,7 @@ namespace Bytebank_ADM
         	return this.Wage * 0.25;
         }
         
-        public void raiseWage()
+        public override void raiseWage()
         {
         	this.Wage *= 1.05;
         }
