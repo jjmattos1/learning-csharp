@@ -12,21 +12,23 @@ namespace Bytebank_ADM
 		//static void Main(string[] args)
 		{
 			Console.WriteLine("/| Alura /|\n");
-			
-			#region
-			/*
-			Console.WriteLine("\n> C#: Usando herança e implementando interfaces");
-			Console.WriteLine("\n1) Employee class and method overload.");
+			Console.WriteLine("\n> CSharp: Usando herança e implementando interfaces");
+			Console.WriteLine("\nEmployee emp0 is the object to test the scenarios/cases.");
 			
 			//Console.WriteLine("\n...");
 			//
-			Employees emp0 = new Employees("0123456789", 2000);
+			Auxiliary emp0 = new Auxiliary("0123456789");
 			emp0.Name = "Pedro Malazartes";
 			// cpf, wage propertie being forced to be sent via default constructor method
 			//emp0.Cpf = "0123456789";
 			//emp0.Wage = 2500;
 			//Console.WriteLine("\n");
-			Console.WriteLine("\nBônus salarial do "+emp0.Name+": "+emp0.getBonus());
+			Console.WriteLine("\nBônus salarial do "+emp0.Name+": "+emp0.getBonus()+".");
+			
+			
+			#region
+			
+			/*
 			//
 			Directors dir0 = new Directors("0123456788", 5000);
 			dir0.Name = "Roberta Silva";
@@ -81,6 +83,7 @@ namespace Bytebank_ADM
 			Console.WriteLine("Novo salário do "+dir0.Name+" é de R$ "+dir0.Wage);
 			*/
 			#endregion
+			
 			
 			void BonusCalc()
 			{
@@ -139,12 +142,75 @@ namespace Bytebank_ADM
 				CommercialPartner caio = new CommercialPartner();
 				caio.Password = "999";
 				internalSystem.LogIn(caio,"999");
+				
+				
 			}
 			
-			BonusCalc();
-			UseSystem();
+			void Tests1()
+			{
+
+				Console.WriteLine("\n> CSharp: Alura+ Classe Object C#");
+				
+				Console.WriteLine("\n# Remember that is possible to rewrite"+
+									" methods from Object and other"+
+									" main base C# Classes.");
+				
+				Console.WriteLine("\n"+emp0.ToString());
+				
+				Console.WriteLine("\n> CSharp: Concatenando/Interpolando Strings");
+				//https://www.alura.com.br/artigos/strings-com-c-sharp-para-manipular-textos
+				
+				
+				// to capture data and input it on a variable:
+				// string newVar = Console.ReadLine();
+				
+				Console.WriteLine("\nDigite a seguir duas palavras.");
+				Console.Write("\nDigite a 1a palavra: ");
+				string word1 = Console.ReadLine();
+				Console.Write("Digite a 2a palavra: ");
+				string word2 = Console.ReadLine();
+				string defaultTxt = $"\nPrezado colaborador(a) {emp0.Name}, " +
+									$"temos o prazer de lhe informar que " +
+									$"as palavras digitadas foram {word1} e {word2}!";
+				// defaultTxt end
+				Console.WriteLine("\nO func. teste é "+emp0.Name+". "
+									+"O texto padrão"
+									+" com as palavras digitadas é: ");
+				Console.WriteLine(defaultTxt);
+				
+				var wordsConc = word1 +"-"+ word2;
+				var formattedMsg = string.Format("\nPalavras concatenadas com '-': {0}", wordsConc);
+				Console.WriteLine(formattedMsg);
+				
+				Console.WriteLine("\n> CSharp: Verbatim Strings");
+				
+				string dirTxt = "Variável armazenada desta forma:\n";
+				
+				string dirVarExample1 = "''string dirExample = ";
+				//string dirVarExample2 = "@";
+				//string dirVarExample3 = @"''";
+				string dirVarExampleX = @"@''C:\temp\codigo'';";
+				//dirTxt += dirVarExample;
+				Console.WriteLine(dirTxt);
+				// to store a verbatim string correctly, you must use the @ char before the start of ""
+				string dirExample = @"C:\temp\codigo";
+				Console.Write("Resulta em: "+dirExample+"\n");
+				// show obs that '' is ".
+				Console.WriteLine("\n\n\n\n");
+				//Console.WriteLine("");
+			}
 			
-			//
+			
+			//BonusCalc();
+			
+			//UseSystem();
+			
+			Tests1();
+			
+			
+			// 
+			
+			
 		}
 	}
 }

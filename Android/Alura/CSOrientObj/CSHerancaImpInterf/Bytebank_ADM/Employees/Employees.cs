@@ -43,5 +43,15 @@ namespace Bytebank_ADM
         	this.Wage *= 1.10;
         }*/
         
+        //Object
+		// remember that is possible to rewrite methods from Object and other main Base Classes
+        public override string ToString()
+
+        {
+        	return	$"Nome: {this.Name} \n"+
+        			$"CPF: {this.Cpf} \n"+
+        			$"Salário: {this.Wage}";
+        }
+        
     }
 }
