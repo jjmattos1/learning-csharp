@@ -172,6 +172,7 @@ namespace Bytebank_ADM
 				string defaultTxt = $"\nPrezado colaborador(a) {emp0.Name}, " +
 									$"temos o prazer de lhe informar que " +
 									$"as palavras digitadas foram {word1} e {word2}!";
+				
 				// defaultTxt end
 				Console.WriteLine("\nO func. teste é "+emp0.Name+". "
 									+"O texto padrão"
@@ -184,20 +185,39 @@ namespace Bytebank_ADM
 				
 				Console.WriteLine("\n> CSharp: Verbatim Strings");
 				
-				string dirTxt = "Variável armazenada desta forma:\n";
+				string dirTxt = "\nVariável armazenada desta forma:\n";
 				
-				string dirVarExample1 = "''string dirExample = ";
+				string dirVarExample1 = " ''string dirExample = ";
 				//string dirVarExample2 = "@";
 				//string dirVarExample3 = @"''";
 				string dirVarExampleX = @"@''C:\temp\codigo'';";
 				//dirTxt += dirVarExample;
-				Console.WriteLine(dirTxt);
+				Console.WriteLine(dirTxt+dirVarExample1+dirVarExampleX);
 				// to store a verbatim string correctly, you must use the @ char before the start of ""
 				string dirExample = @"C:\temp\codigo";
-				Console.Write("Resulta em: "+dirExample+"\n");
+				Console.Write("\nResulta em: "+dirExample+"\n");
 				// show obs that '' is ".
+				
+				Console.WriteLine("\nO tamanho total das palavras concatenadas é: "+ wordsConc.Length);
+				
+				wordsConc = String.Join("", new String[] {word1,word2});
+				Console.WriteLine("\nPalavras concatenadas com String.Join são: "+ wordsConc);
+				
+				Console.WriteLine("\nPalavras digitadas ant. divididas, sem o '-' (.Split): ");
+				string[] _split = wordsConc.Split("-");
+				for (int i = 0; i < _split.Length ; i++)
+				{
+					Console.WriteLine($"{_split[i]}");
+				}
+				
+				string wordsConcNew = String.Concat(_split);
+				Console.WriteLine("\nPrimeira ocorrência do char {a}, num. index: "+wordsConcNew.IndexOf("a"));
+				Console.WriteLine("\nÚltima ocorrência do char {a}, num. index: "+wordsConcNew.LastIndexOf("a"));
+				
 				Console.WriteLine("\n\n\n\n");
 				//Console.WriteLine("");
+				
+				
 			}
 			
 			
