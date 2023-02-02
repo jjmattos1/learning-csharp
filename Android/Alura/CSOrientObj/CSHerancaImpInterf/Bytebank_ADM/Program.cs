@@ -180,8 +180,8 @@ namespace Bytebank_ADM
 				Console.WriteLine(defaultTxt);
 				
 				var wordsConc = word1 +"-"+ word2;
-				var formattedMsg = string.Format("\nPalavras concatenadas com '-': {0}", wordsConc);
-				Console.WriteLine(formattedMsg);
+				var formattedMsg = string.Format("{0}", wordsConc);
+				Console.WriteLine("\nPalavras concatenadas com '-': "+formattedMsg);
 				
 				Console.WriteLine("\n> CSharp: Verbatim Strings");
 				
@@ -203,6 +203,7 @@ namespace Bytebank_ADM
 				wordsConc = String.Join("", new String[] {word1,word2});
 				Console.WriteLine("\nPalavras concatenadas com String.Join são: "+ wordsConc);
 				
+				// a better example than the one below need to be done (.Split)
 				Console.WriteLine("\nPalavras digitadas ant. divididas, sem o '-' (.Split): ");
 				string[] _split = wordsConc.Split("-");
 				for (int i = 0; i < _split.Length ; i++)
@@ -210,14 +211,82 @@ namespace Bytebank_ADM
 					Console.WriteLine($"{_split[i]}");
 				}
 				
+				Console.WriteLine("\nLembrando que para fins de atualizar uma string (concatenar e interpolar), se poderia usar "
+									+"a classe StringBuilder, mais precisamente utilizando o método "
+									+" '.Append(''valor'')', pois com ele se atualiza a string atual, "
+									+"entregando mais desempenho e facilitando futuras manutenções.");
+				
 				string wordsConcNew = String.Concat(_split);
 				Console.WriteLine("\nPrimeira ocorrência do char {a}, num. index: "+wordsConcNew.IndexOf("a"));
 				Console.WriteLine("\nÚltima ocorrência do char {a}, num. index: "+wordsConcNew.LastIndexOf("a"));
+				
+				// ("Primeira ocorrência do caractere {e} = " + mensagem.IndexOf("e",StringComparison.CurrentCulture));
+				// https://stackoverflow.com/questions/417954/c-sharp-string-comparisons-difference-between-currentcultureignorecase-and-inva
+				
+				string txtReplace = "Substituir o biscoito por YYY!";
+				Console.WriteLine("\n"+txtReplace);
+				// Console.Write("\nDigite a palavra para substituir o YYY acima: ");
+				// string txtReplaceWord = Console.ReadLine();
+				txtReplace = txtReplace.Replace("YYY", formattedMsg);
+				Console.WriteLine("\nNovo texto: "+txtReplace);
+				
+				// Substring method is used to extract a string from another string.
+				// In the ex. below will be used a way (struct guid) to generate a
+				// random UUID/Unique ID number to usr ad an example.
+				string randomGuidKey = Guid.NewGuid().ToString();
+				// the parameters of .Substring are about the beginning and end of
+				// the variable index in question. This way the Substring will
+				// extract only the chars between those indexes.
+				Console.WriteLine("\nIdentificador gerado: "+ randomGuidKey.Substring(0,8));
+				
+				Console.WriteLine("\nTestes usando o método '.Equals()'. "
+									+"Se uma palavra ou frase são iguais e "
+									+"se a 1a palavra é palíndromas.");
+				Console.Write("\nDigite a 1a palavra/frase: ");
+				word1 = Console.ReadLine();
+				Console.Write("Digite a 2a palavra/frase: ");
+				word2 = Console.ReadLine();
+				if (word1.Equals(word2))
+				{
+					Console.WriteLine("\nAs palavras/frases digitadas acima são iguais!");
+				}
+				else
+				{
+					Console.WriteLine("\nAs palavras/frases digitadas acima são diferentes!");
+				}
+				
+				var reversedWord = new string (word1.Reverse().ToArray());
+				if (word1.Equals(reversedWord))
+				{
+					Console.WriteLine("\nA 1a palavra/frase é palíndroma!");
+				}
+				else
+				{
+					Console.WriteLine("\nA 1a palavra/frase não é palíndroma!");
+				}
+				
+				Console.WriteLine("\n\nFalta criar exemplos usando os método '.Insert()' "
+									+"(inserir string em outra respeitando indice (ex: example.Insert(2,''TextHere'') "
+									+"e tambem com o '.Trim()' que remove espaços de uma string (tem as variações"
+									+"'.TrimStart()' e '.TrimEnd() também, indicadas para se usar em formulários).'");
+				
+				Console.WriteLine("\nMétodos '.toUpper()' e '.toLower()' que colocam toda uma string em maiúscula ou minúscula.");
+				
+				
 				
 				Console.WriteLine("\n\n\n\n");
 				//Console.WriteLine("");
 				
 				
+				/*
+				
+				Useful links:
+				
+				https://docs.microsoft.com/pt-br/dotnet/api/system.string?view=net-6.0
+				https://docs.microsoft.com/pt-br/dotnet/standard/base-types/stringbuilder
+				https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular
+				
+				*/
 			}
 			
 			
