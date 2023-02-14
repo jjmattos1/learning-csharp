@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:local="clr-namespace:CSharp_Shell"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="CSharp_Shell.InfoPage">
+	<Label Text="You can replace the 'Tab' tags with a 'FlyoutItem' containing one 'ShellContent' each to get a menu that looks like the primary menu of this application." />
+</ContentPage>

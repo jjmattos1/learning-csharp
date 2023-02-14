@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This tag is just a comment. Press the 'P' button in the top menu to quickly
+preview the page. Event handlers aren't attached in preview mode. 
+Note that if you change the class name or namespace in the '.cs' page file
+then you need to change it in the 'x:Class' attribute here too -->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="CSharp_Shell.NewPage">
+	<StackLayout Orientation="Vertical">
+		<Button Text="Hello, World!" Clicked="ButtonClick" />
+		<Label x:Name="text" />
+	</StackLayout>	
+</ContentPage>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:local="clr-namespace:CSharp_Shell"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="CSharp_Shell.MyShell">
+	<TabBar>
+        <Tab Title="Home" Icon="home.png" Shell.NavBarIsVisible="false">
+           	<ShellContent Title="Cats">
+           		<local:CatsPage />
+           	</ShellContent>
+            <ShellContent Title="Dogs">
+            	<local:DogsPage />
+            </ShellContent>
+        </Tab>
+        <Tab Title="Info" Icon="info.png">
+            <ShellContent ContentTemplate="{DataTemplate local:InfoPage}"/>
+        </Tab>
+    </TabBar>
+</Shell>

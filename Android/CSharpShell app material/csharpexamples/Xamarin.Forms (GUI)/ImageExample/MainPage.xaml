@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- At compile time every 'Source="image.png"' in XAML files is transformed into 'Source="{xfl:ImageResource image.png}"'.
+The 'ImageResource' class handles files, embedded resources and APK assets.
+It makes sure that only the file name of an embedded resource is used 
+and allows assets to be used directly as files by C# Shell. Assets can have folders.
+-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:local="clr-namespace:CSharp_Shell"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="CSharp_Shell.MainPage">
+	<StackLayout Orientation="Vertical">
+		<Image Source="csslogo_resource.png" 
+			   VerticalOptions="CenterAndExpand" />
+		<Image Source="img/csslogo_asset.png"
+				VerticalOptions="CenterAndExpand" />
+	</StackLayout>	
+</ContentPage>

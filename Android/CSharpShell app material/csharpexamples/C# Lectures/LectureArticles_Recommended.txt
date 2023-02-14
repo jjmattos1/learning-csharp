@@ -1,0 +1,5 @@
+https://www.codeproject.com/Articles/1032174/CsharpLectures-Lecture-Primitive-Types
+
+
+This link leads to the articles of all the examples. 
+They contain detailed explanations for the corresponding code file.
