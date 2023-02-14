@@ -63,6 +63,14 @@ namespace CsharpRegex
 			// https://www.alura.com.br/artigos/javascript-replace-manipulando-strings-e-regex
 			// https://www.alura.com.br/conteudo/expressoes-regulares
 			// https://docs.microsoft.com/pt-br/dotnet/api/system.text.regularexpressions.regex?view=net-6.0
+			
+			/*
+			
+			https://www.alura.com.br/artigos/c-sharp-entendendo-classes-e-structs
+			
+			*/
+			
+			
 		}
 	}
 }
